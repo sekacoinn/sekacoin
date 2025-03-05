@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TON Wallet Connection</title>
+    <link rel="stylesheet" href="material/css/w.css">
+</head>
+
+<body>
+
+    <!-- Open Wallet Pop-up Button -->
+    <button id="openModalBtn" class="open-button">Hesabını bağla!</button>
+   
+  
+    <!-- Modal Window -->
+    <div id="walletModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <p>Bağlan butonu ile işlemini tamamla!</p>
+
+            <div class="wallet-options">
+                <button id="connectWallet" class="wallet-btn">Bağlan</button>
+                <button id="cancelWallet" class="cancel-btn">İptal</button>
+            </div>
+
+            <div id="statusMessage" class="status"></div>
+        </div>
+    </div>
+
+    <script src="material/js/w.js"></script>
+</body>
+</html>
